@@ -1,0 +1,13 @@
+.nav_list{
+    display: flex;
+    background-image: url("./img/sitting_lady.png");
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    height: 34px;
+    width: 113px;
+}
