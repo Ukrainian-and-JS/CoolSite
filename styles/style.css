@@ -170,3 +170,92 @@
     margin-left: 10px;
     text-decoration: none;
 }
+
+div.screen-6 {
+    text-align: center; padding: 8%;
+}
+
+footer {
+    text-align: center;
+    padding: 8%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+div.subscribe-box {
+    background: #F9F7FE; border-radius: 15px;  padding-top: 6%; padding-right: 8%; padding-bottom: 7%; padding-left: 8%;
+}
+
+div.subscribe-box .telegram {
+    height: 50px; position: absolute; right: 6%; overflow: visible; margin-top: -40px;
+}
+
+div.subscribe-box .text {
+    font-family: 'Roboto', sans-serif; margin-bottom: 4%;
+}
+
+div.subscribe-box .form {
+    width: 100%; text-align: center;
+}
+
+div.subscribe-box .form-input {
+    display: inline-block; width: 50%; height: 100%; margin: 0; padding: 2%; border-radius: 8px; border: none;
+}
+
+div.subscribe-box .submit {
+    display: inline-block; border: none; text-decoration: none; padding-top: 2.2%; padding-bottom: 2.2%; padding-left: 3%; padding-right: 3%; border-radius: 8px; background-color: #FF846A; color: #FFFFFF;
+}
+
+footer .links-block {
+    padding-left: 0%;
+    display: inline-block; padding-right: 4%;
+    vertical-align: top; text-align: left;
+}
+
+footer .links-block a {
+    text-decoration: none;
+}
+
+footer .logo {
+    margin-bottom: 7%;
+}
+
+footer .logo-text {
+    text-align: left; font-weight: 100; color:#707490; margin: 0;
+}
+
+footer .links-block .block-header {
+    font-weight: 600; margin: 0; padding-bottom: 25px;
+}
+
+footer .links-block .block-element {
+    font-weight: 100; color:#707490; margin: 0; padding-bottom: 12px;
+}
+
+footer .app-links-block {
+    display: inline-block; vertical-align: top; text-align: left; padding-left: 0%;
+}
+
+footer .app-links-block a {
+    text-decoration: none;
+}
+
+footer .app-links-block .app-links-row {
+    padding-left: 0%; padding-bottom: 12px;
+}
+
+footer .app-links-block .app-links-row .row-element {
+    display: inline-block;
+}
+
+footer .app-links-block .app-links-row .row-element .social-icon {
+    height: 27px;
+}
+
+footer .app-links-block .discover-app-link-text {
+    font-weight: 500; color:#707490; margin: 0; padding-bottom: 12px;
+}
+
+footer .app-links-block .store-link {
+    height: 15px;
+}
