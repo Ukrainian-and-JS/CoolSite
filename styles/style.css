@@ -1,0 +1,398 @@
+.navigation {
+    font-size: 16px;
+    padding: 40px 16px;
+    font-family: Poppins;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-left: 159.5px;
+    margin-right: 159.5px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#navigation_logo {
+    margin: 0px 16px 0px 0px;
+    padding: 2.91408px 0px;
+}
+
+#navbar {
+    display:flex;
+    flex-basis: auto;
+    margin-top: 0;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#navigation-nav_list {
+    display:flex;
+    flex-direction: row;
+    padding-top: 0px;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.navigation-nav-link {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-left: 28.8px;
+    padding-right: 28.8px;
+}
+
+.link {
+    color:black;
+    text-decoration: none;
+}
+
+.navigation-nav-dropdown {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.screen1 {
+    position: relative;
+    display: block;
+    padding-top: 112px;
+    padding-bottom: 80px;
+
+}
+
+.background-holder {
+    background-image: url(../img/hero-bg.svg);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image_container {
+    display: block;
+    width: 50%;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#lady {
+    width: 105%;
+    margin-left: 0px;
+    padding-top: 0;
+    vertical-align: middle;
+}
+
+
+#left_part {
+    display: block;
+    text-align: left;
+    width: 50%;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-right: 0px;
+}
+
+#first_line {
+    display: block;
+    color: #DF6951;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.26563rem;
+    font-family: Poppins;
+}
+
+#second_line {
+    color: #181E4B;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 5.20158rem;
+    margin-bottom: 5px;
+    font-family: Volkhov;
+}
+
+#third_line {
+    color: #5E6282;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+    font-size: 1rem;
+    font-family: Tinos;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#find_out_more {
+    background-color: #F1A501;
+    color: white;
+    font-size: 18px;
+    margin: 0px 30px 0px 0px;
+    padding: 13px, 27px;
+    border-radius: 8px;
+    border: 13px solid #F1A501;
+}
+
+#play_demo {
+    height: 50px;
+    width: 50px;
+    background-color: #DF6951;
+    border-radius: 25px;
+    color: black;
+    border: 13px solid #DF6951;
+}
+
+#play_text {
+    color:black;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.screen-5 {
+    padding: 8%;
+    text-align: center;
+}
+
+.sponsors-list-item {
+    display: inline-block;
+    margin: 3%;
+}
+
+.sponsor-container {
+    margin-top: 200px;
+}
+
+.sponsors-list-img {
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.screen-5 .title-secondary {
+    color: #5E6282;
+    font-size: 1rem;
+    margin-bottom: 2%;
+    font-weight: 900;
+    font-family: "Poppins";
+}
+
+.screen-5 .img-rounded {
+    margin-top: -30px;
+    margin-left: -33px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.screen-5 .foreground-box {
+    margin-top: -60px;
+    position: absolute;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.09);
+    background-color: #FFFEFE;
+    border-radius: 10px;
+    width: 36%;
+    height: 230px;
+}
+
+.screen-5 .testimony-block {
+    color: #5E6282;
+    margin-top: -15px;
+    padding-right: 7%;
+    padding-left: 7%;
+    line-height: 1.5;
+}
+
+.screen-5 .testimony-quote {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+
+.screen-5 .testimony-name {
+    font-size: 1.125rem;
+    font-weight: bolder;
+    font-family: 'Poppins';
+}
+
+.screen-5 .testimony-location {
+    font-size: 0.85rem;
+    font-family: 'Poppins';
+}
+
+.screen-5 .background-box {
+    margin-top: -25px;
+    margin-left: 20px;
+    position: absolute;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.09);
+    background-color: #FFFEFE;
+    width: 36%;
+    border-radius: 10px;
+    height: 230px;
+}
+
+.screen-5 .title-primary {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: left;
+    font-family: "Poppins";
+    margin-bottom: 7%;
+}
+
+.screen-5-horizontal-item {
+    display: inline-block;
+    vertical-align: top; text-align: left;
+}
+
+.screen-5-horizontal-item.title {
+    margin-right: 10%;
+    max-width: 40%;
+}
+
+.carousel-circles-container {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.carousel-circle {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 16px;
+}
+
+.carousel-arrow {
+    background:none;
+    border:none;
+    margin: 5px;
+    padding:0;
+    cursor: pointer;
+}
+
+.screen-5-horizontal-item.people {
+    width: 40%;
+    max-width: 40%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.screen-5-horizontal-item.arrows {
+    margin-top: 7%;
+    margin-left: 20px;
+    text-align: center;
+    position: absolute;
+    max-width: fit-content;
+}
+
+div.screen-6 {
+    text-align: center; padding: 8%;
+}
+
+footer {
+    text-align: center;
+    padding: 8%;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.subscribe-box {
+    background: #F9F7FE; border-radius: 15px;  padding-top: 6%; padding-right: 8%; padding-bottom: 7%; padding-left: 8%;
+}
+
+div.subscribe-box .telegram {
+    height: 50px; position: absolute; right: 6%; overflow: visible; margin-top: -40px;
+}
+
+div.subscribe-box .text {
+    font-family: 'Roboto', sans-serif; margin-bottom: 4%;
+}
+
+div.subscribe-box .form {
+    width: 100%; text-align: center;
+}
+
+div.subscribe-box .form-input {
+    display: inline-block; width: 50%; height: 100%; margin: 0; padding: 2%; border-radius: 8px; border: none;
+}
+
+div.subscribe-box .submit {
+    display: inline-block; border: none; text-decoration: none; padding-top: 2.2%; padding-bottom: 2.2%; padding-left: 3%; padding-right: 3%; border-radius: 8px; background-color: #FF846A; color: #FFFFFF;
+}
+
+footer .links-block {
+    padding-left: 0%;
+    display: inline-block; padding-right: 4%;
+    vertical-align: top; text-align: left;
+}
+
+footer .links-block a {
+    text-decoration: none;
+}
+
+footer .logo {
+    margin-bottom: 7%;
+}
+
+footer .logo-text {
+    text-align: left; font-weight: 100; color:#707490; margin: 0;
+}
+
+footer .links-block .block-header {
+    font-weight: 600; margin: 0; padding-bottom: 25px;
+}
+
+footer .links-block .block-element {
+    font-weight: 100; color:#707490; margin: 0; padding-bottom: 12px;
+}
+
+footer .app-links-block {
+    display: inline-block; vertical-align: top; text-align: left; padding-left: 0%;
+}
+
+footer .app-links-block a {
+    text-decoration: none;
+}
+
+footer .app-links-block .app-links-row {
+    padding-left: 0%; padding-bottom: 12px;
+}
+
+footer .app-links-block .app-links-row .row-element {
+    display: inline-block;
+}
+
+footer .app-links-block .app-links-row .row-element .social-icon {
+    height: 27px;
+}
+
+footer .app-links-block .discover-app-link-text {
+    font-weight: 500; color:#707490; margin: 0; padding-bottom: 12px;
+}
+
+footer .app-links-block .store-link {
+    height: 15px;
+}
