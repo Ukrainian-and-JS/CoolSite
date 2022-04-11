@@ -310,7 +310,9 @@
 }
 
 div.screen-6 {
-    text-align: center; padding: 8%;
+    padding: 8%;
+    display: inline-block;
+    width: 84%;
 }
 
 footer {
@@ -320,14 +322,28 @@ footer {
 }
 
 div.subscribe-box {
-    background: #F9F7FE; border-radius: 15px;  padding-top: 6%; padding-right: 8%; padding-bottom: 7%; padding-left: 8%;
+    background: #F9F7FE;
+    border-radius: 15px;
+    padding-top: 6%;
+    padding-right: 8%;
+    padding-bottom: 7%;
+    padding-left: 8%;
 }
 
-div.subscribe-box .telegram {
-    height: 50px; position: absolute; right: 6%; overflow: visible; margin-top: -40px;
+div.screen-6 .telegram {
+    position: absolute;
+    height: 50px;
+    margin-left: -27px;
+    margin-top: -27px;
+}
+
+div.screen-6 .telegram-container {
+    width: 100%;
+    text-align: right;
 }
 
 div.subscribe-box .text {
+    text-align: center;
     font-family: 'Roboto', sans-serif; margin-bottom: 4%;
 }
 
